@@ -5,8 +5,9 @@ import xml.etree.ElementTree as ET
 import os
 import sys
 
-# Tested with Davinci Resolve 17.4 Build 12 and python 3.6.13 (virtual env activated with conda: 
-# > activate davinci_virtual_env)
+# Tested with Davinci Resolve 17.4 Build 12 and python 3.6.13 
+# virtual env activated with conda: 
+# > activate davinci_virtual_env
 # > conda develop /PATH/TO/YOUR/FOLDER/WITH/MODULES
 # ex. conda develop "/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting/Modules"
 # Define a node tree in Color Tab with two nodes, ASC-CDLs and LUTs must contain the same name of the clips
